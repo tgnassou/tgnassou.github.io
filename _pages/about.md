@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student at Inria Saclay in the <a href='https://team.inria.fr/mind/'>Mind</a> team. contact:theo.gnassounou@inria.fr.
+subtitle: contact:theo.gnassounou@inria.fr.
 
 profile:
   align: right
   image: profile.png
   image_circular: False # crops the image to make it circular
-  more_info: contact:theo.gnassounou@inria.fr.
+  more_info: 
 
 news: False # includes a list of news items
 latest_posts: False # includes a list of the newest posts
