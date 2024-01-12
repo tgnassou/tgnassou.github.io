@@ -2,96 +2,50 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Théo Gnassounou
     - name: Date of Birth
-      value: 14th March 1879
+      value: 9th January 1997
     - name: Languages
-      value: English, German
+      value: English, French
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Université Paris-Saclay, France
+      year: 2023 - current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Multi-source domain adaptation apply to biosignals
+    - title: University Degree
+      institution: Université Paris-Saclay, France
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Master MVA (Mathématiques, Vision, Apprentissage)
+        - M1 in Electrical Engineering
 
-- title: Experience
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Assistant Professor of Signal Processing
+      institution: Institut Polytechnique de Paris, Palaiseau, France
+      year: 2023
+    - title: Assistant Professor of Signal Processing
+      institution: Institut Villebon-Georges Charpak, Palaiseau, France
+      year: 2023-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Informatics and IA
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://braindecode.org/stable/index.html">braindecode</a>
+      year: 2023
+      description: 
+        - Braindecode is an open-source Python toolbox for decoding raw electrophysiological brain data with deep learning models
+        - Particpation to the code sprint
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Scientific Contributions
   type: nested_list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Serve as a reviewer in Neurips 2023.
+    - title: Serve as a reviewer in ICLR 2023.

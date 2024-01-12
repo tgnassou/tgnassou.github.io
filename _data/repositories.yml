@@ -1,8 +1,8 @@
 github_users:
-  - tgnassou
+  # - tgnassou
 
 github_repos:
-  - tgnassou/tgnassou.github.io
+  - /PythonOT/convolutional-monge-mapping-normalization
   # - twbs/bootstrap
   # - jekyll/jekyll
   # - jquery/jquery
