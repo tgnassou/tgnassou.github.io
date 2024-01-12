@@ -26,23 +26,25 @@
 - title: Teaching Experience
   type: time_table
   contents:
-    - title: Assistant Professor of Signal Processing
+    - title: Assistant Professor
       institution: Institut Polytechnique de Paris, Palaiseau, France
       year: 2023
-    - title: Assistant Professor of Signal Processing
+      description:
+        - Practical course of Signal Processing
+    - title: Assistant Professor
       institution: Institut Villebon-Georges Charpak, Palaiseau, France
       year: 2023-2024
       description:
         - Informatics and IA
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://braindecode.org/stable/index.html">braindecode</a>
-      year: 2023
-      description: 
-        - Braindecode is an open-source Python toolbox for decoding raw electrophysiological brain data with deep learning models
-        - Particpation to the code sprint
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://braindecode.org/stable/index.html">braindecode</a>
+#       year: 2023
+#       description: 
+#         - Braindecode is an open-source Python toolbox for decoding raw electrophysiological brain data with deep learning models
+#         - Particpation to the code sprint
 
 - title: Scientific Contributions
   type: nested_list
