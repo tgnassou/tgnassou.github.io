@@ -16,6 +16,6 @@ selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a **PhD** student at Inria Saclay in the [Mind](https://team.inria.fr/mind/) team.
+I am currently a **PhD** student at Inria Saclay in the [Mind](https://team.inria.fr/mind/) team under the supervision of [Rémi Flamary](https://remi.flamary.com/) and [Alexandre Gramfort](https://alexandre.gramfort.net/).
 
 My research interests include **machine learning**, **domain adaptation**, **optimal transport** and their applications to **biosignals**. 
