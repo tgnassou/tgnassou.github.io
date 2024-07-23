@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Contact: theo.gnassounou@inria.fr.
+subtitle: theo.gnassounou@inria.fr.
 
 profile:
   align: right
