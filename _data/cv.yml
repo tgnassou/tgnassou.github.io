@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Université Paris-Saclay, France
+      institution: Université Paris-Saclay, Inria Mind, France
       year: 2023 - current
       description:
         - Multi-source domain adaptation apply to biosignals
@@ -49,5 +49,7 @@
 - title: Scientific Contributions
   type: nested_list
   contents:
+    - title: Serve as a reviewer for JMLR.
+    - title: Serve as a reviewer in ICML 2024.
     - title: Serve as a reviewer in Neurips 2023.
     - title: Serve as a reviewer in ICLR 2023.
