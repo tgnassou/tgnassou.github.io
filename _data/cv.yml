@@ -42,7 +42,7 @@
 #   contents:
 #     - title: <a href="https://braindecode.org/stable/index.html">braindecode</a>
 #       year: 2023
-#       description: 
+#       description:
 #         - Braindecode is an open-source Python toolbox for decoding raw electrophysiological brain data with deep learning models
 #         - Particpation to the code sprint
 
