@@ -14,8 +14,16 @@ See also [Google Scholar](https://scholar.google.com/citations?user=X_LZU3IAAAAJ
 \* means equal contribution.
 
 <!-- _pages/publications.md -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
-
-{% bibliography %}
-
+{% bibliography
+     --file         papers.bib
+     --replace
+     --group_by     year
+     --group_order  descending
+     --sort_by      year
+     --order        descending
+%}
 </div>
