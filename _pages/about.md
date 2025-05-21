@@ -22,4 +22,4 @@ My research interests include **machine learning**, **domain adaptation**, **opt
 
 I am also interested in **open science** and **reproducible research**. I am the co-creator  and maintainer of [Skada](https://github.com/scikit-adaptation/skada), a Python library for domain adaptation.
 
-My curriculum vitae is available [here](assets/pdfCV.pdf).
+My curriculum vitae is available [here](assets/pdf/CV.pdf).
