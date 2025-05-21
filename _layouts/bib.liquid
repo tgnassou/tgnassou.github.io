@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
 <div class="row">
-  {% if site.enable_publication_thumbnails %}  {% if site.enable_publication_thumbnails %}
+  {% if site.enable_publication_thumbnails %}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
@@ -39,7 +39,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -209,12 +209,12 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
-    {% if site.enable_publication_badges %}    {% if site.enable_publication_badges %}
+    {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
       {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
       {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
         <div class="badges">
-          {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}          {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
+          {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
               class="altmetric-embed"
               data-hide-no-mentions="true"
@@ -234,7 +234,7 @@
               {% endif %}
             ></span>
           {% endif %}
-          {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}          {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
+          {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
             <span
               class="__dimensions_badge_embed__"
               {% if entry.doi %}
